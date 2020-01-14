@@ -768,6 +768,7 @@ var builtInNumFmtFunc = map[int]func(i int, v string) string{
 	20: parseTime,
 	21: parseTime,
 	22: parseTime,
+	36: parseTime,
 	37: formatToA,
 	38: formatToA,
 	39: formatToB,
